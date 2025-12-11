@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="screen">
+
+    <!-- TOP ARC -->
+    <div class="top-arc">
+        <div class="back-container">
+            <a href="screen3.html" class="back-btn">←</a>
+            <span class="tora-label">TORA</span>
+        </div>
+    </div>
+
+    <!-- ALBUM TITLE -->
+    <h1 class="gallery-title" id="albumGameTitle"></h1>
+
+    <!-- FIRST 3 IMAGES -->
+    <div class="sequence-row">
+        <img id="seq1" class="seq-img">
+        <img id="seq2" class="seq-img">
+        <img id="seq3" class="seq-img">
+    </div>
+
+    <h2 class="game-subtitle">Select the next photo in sequence!</h2>
+
+    <!-- ANSWER OPTIONS -->
+    <div class="answer-row">
+        <div id="optContainer1" class="answer-option" data-correct="false">
+            <img id="opt1" class="opt-img">
+            <span class="marker"></span>
+        </div>
+
+        <div id="optContainer2" class="answer-option" data-correct="false">
+            <img id="opt2" class="opt-img">
+            <span class="marker"></span>
+        </div>
+    </div>
+
+    <!-- CHAT -->
+    <div id="chatContainer" class="chat-container"></div>
+
+    <!-- PLAY MORE / REST -->
+    <div id="afterCorrectButtons" class="hidden choice-buttons">
+        <button id="playMoreBtn">Play More</button>
+        <button id="restBtn">Take a Rest</button>
+    </div>
+
+</div>
+
+<script src="screen4.js"></script>
+</body>
+</html>

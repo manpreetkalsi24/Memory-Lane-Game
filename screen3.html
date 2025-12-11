@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="screen">
+
+        <!-- TOP ARC -->
+        <div class="top-arc">
+            <div class="back-container">
+                <a href="screen2.html" class="back-btn">←</a>
+                <span class="tora-label">TORA</span>
+            </div>
+        </div>
+
+        <!-- DYNAMIC ALBUM TITLE -->
+        <h1 class="gallery-title" id="albumTitle">ALBUM NUMBER</h1>
+
+        <!-- ALBUM BOOK LAYOUT -->
+        <div class="album-book">
+
+            <div class="page left-page">
+                <img src="images/a1.jpg" class="album-img large">
+                <img src="images/a2.jpg" class="album-img wide">
+            </div>
+
+            <div class="page right-page">
+                <img src="images/a3.jpg" class="album-img small">
+                <img src="images/a4.jpg" class="album-img small">
+                <img src="images/a5.jpg" class="album-img small">
+            </div>
+
+        </div>
+
+        <!-- CHAT BOX -->
+       <div id="chatContainer" class="chat-container"></div>
+
+       <div id="gameChoice" class="hidden choice-buttons">
+            <button id="yesGame">Yes</button>
+            <button id="noGame">No</button>
+        </div>
+
+        <!-- USER INPUT + SEND -->
+        <div class="input-area">
+            <input type="text" id="replyInput" placeholder="Type something related to this album..." />
+            <button id="replySend">Send</button>
+        </div>
+
+        
+
+    </div>
+
+    <script src="album.js"></script>
+
+</body>
+
+</html>

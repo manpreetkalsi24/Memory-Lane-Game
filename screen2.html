@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="screen">
+
+        <!-- TOP ARC -->
+        <div class="top-arc">
+            <div class="back-container">
+                <a href="screen1.html" class="back-btn">←</a>
+                <span class="tora-label">TORA</span>
+            </div>
+        </div>
+
+        <!-- TITLE -->
+        <h1 class="gallery-title">PHOTO GALLERY</h1>
+
+        <!-- GRID OF PHOTOS -->
+        <div class="gallery-grid">
+
+            <div class="gallery-item" data-number="1">
+                <img src="images/trip.jpg" class="gallery-img">
+                <span class="gallery-number">1</span>
+            </div>
+
+            <div class="gallery-item" data-number="2">
+                <img src="images/beach.webp" class="gallery-img">
+                <span class="gallery-number">2</span>
+            </div>
+
+            <div class="gallery-item" data-number="3">
+                <img src="images/dinner.png" class="gallery-img">
+                <span class="gallery-number">3</span>
+            </div>
+
+            <div class="gallery-item" data-number="4">
+                <img src="images/birthday.jpg" class="gallery-img">
+                <span class="gallery-number">4</span>
+            </div>
+
+            <div class="gallery-item" data-number="5">
+                <img src="images/trip.jpg" class="gallery-img">
+                <span class="gallery-number">5</span>
+            </div>
+
+            <div class="gallery-item" data-number="6">
+                <img src="images/wedding.webp" class="gallery-img">
+                <span class="gallery-number">6</span>
+            </div>
+
+        </div>
+
+        <!-- CHAT BOX  -->
+        <div class="chat-box" id="selectedText">
+            <p class="chat-text">Select a gallery number!</p>
+        </div>
+
+        <button id="nextBtn" class="next-btn hidden">Next</button>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

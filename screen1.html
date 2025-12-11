@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TORA - Screen 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="screen">
+
+        <!-- TOP ARC -->
+        <div class="top-arc">
+            <div class="back-container">
+                <span class="back-btn">←</span>
+                <span class="tora-label">TORA</span>
+            </div>
+        </div>
+
+        <!-- CHARACTER -->
+        <div class="character-container">
+            <video src="IMG_1910.mp4" class="character-img">
+        </div>
+
+        <!-- CHAT BOX -->
+        <div class="chat-box">
+            <p class="chat-text">You wanna see some memories today?</p>
+        </div>
+
+        <!-- YES / NO BUTTONS -->
+        <div class="decision-buttons">
+            <button id="yesBtn" class="green-btn">Yes</button>
+            <button id="noBtn" class="red-btn">No</button>
+        </div>
+
+        <!-- KEYBOARD INPUT -->
+        <div id="keyboardInput" class="input-area hidden">
+            <input type="text" id="userReply" placeholder="Type your response..." />
+            <button id="sendBtn">Send</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
